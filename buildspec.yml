@@ -5,5 +5,5 @@ phases:
       - ls -l
   build:
     commands:
-      - jar -cvf hellowworld.jar index.jsp
+      - jar -cvf hellowworld.war index.jsp
       - ls -l
