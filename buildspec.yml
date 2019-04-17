@@ -1,0 +1,9 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - ls -l
+  build:
+    commands:
+      - jar -cvf hellowworld.jar index.jsp
+      - ls -l
